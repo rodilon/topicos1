@@ -1,6 +1,8 @@
 <?php
+session_start();
+
 function usuarioEstaLogado(){
-  return isset($_COOKIE["usuario_logado"]);
+  return isset($_SESSION["usuario_logado"]);
 }
 
 function verificaUsuario(){
@@ -8,4 +10,16 @@ function verificaUsuario(){
     header("Location: index-new.php?falhaDeSeguranca=true");
     die();
   }
+}
+
+function usuarioLogado(){
+  return $_SESSION["usuario_logado"];
+}
+
+function logaUsuario($email){
+  $_SESSION["usuario_logado"] = $email;
+}
+
+function logout(){
+  session_destroy();
 }

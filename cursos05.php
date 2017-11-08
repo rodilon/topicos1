@@ -35,13 +35,12 @@ verificaUsuario();
       </form>
     </div>
     <div id="topnav">
-      <ul>
-        <li><a class="active" href="index.html">Inicio</a>
           <ul>
-            <li><a class="active" href="index.html">Inicio</a>
+            <li><a class="active" href="index.php">Inicio</a>
               <ul>
                 <?php if(usuarioEstaLogado())  {?>
-                    <li><a>Você esta logado como <?= $_COOKIE["usuario_logado"] ?>.</a></li>
+                    <li><a>Você esta logado como <?= usuarioLogado(); ?>.</a></li>
+                    <li><a href="logout.php">Deslogar</a></li>
                 <?php } ?>
               </ul>
             </li>

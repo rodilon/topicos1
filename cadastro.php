@@ -7,12 +7,12 @@
     <form class="modal-content animate" action="cadastro_usuario.php" method="post">
       <div class="container_">
         <label><b>Email</label>
-        <input type="text" placeholder="Entre com Email" name="email" required>
+        <input type="text" placeholder="Entre com Email" class="form-control" name="email" required>
 
         <label><b>Senha</label>
-        <input type="password" placeholder="Entre com senha" name="senha" required>
+        <input type="password" placeholder="Entre com senha" class="form-control" name="senha" required>
         <label><b>Repita a senha</label>
-        <input type="password" placeholder="Repita a senha" name="senha-repetida" required>
+        <input type="password" placeholder="Repita a senha" class="form-control" name="senha-repetida" required>
 
         <p>Para criar uma conta você deve concordar com nossos <a href="#">Termos & Privacidade</a>.</p>
 

@@ -1,3 +1,6 @@
+<?php include("logica-usuario.php");
+verificaUsuario();
+?>
 <div class="wrapper col4">
   <div id="container">
     <div id="content">
