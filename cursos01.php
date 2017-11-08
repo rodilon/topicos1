@@ -38,7 +38,7 @@ verificaUsuario();
       <ul>
         <li><a class="active" href="index.html">Inicio</a>
           <ul>
-            <?php if(isset($_COOKIE["usuario_logado"]))  {?>
+            <?php if(usuarioEstaLogado())  {?>
                 <li><a>Você esta logado como <?= $_COOKIE["usuario_logado"] ?>.</a></li>
             <?php } ?>
           </ul>

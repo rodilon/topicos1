@@ -27,7 +27,7 @@
 </div>
 <div class="wrapper col6">
   <div id="copyright">
-    <p class="fl_left">Copyright &copy; 2014 - All Rights Reserved - <a href="#">Educa-mais</a></p>
+    <p class="fl_left">Copyright &copy; 2017 - All Rights Reserved - <a href="#">Educa-mais</a></p>
     <br class="clear" />
   </div>
 </div>

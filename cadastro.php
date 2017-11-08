@@ -1,6 +1,6 @@
 <?php include("cabecalho-index.php"); ?>
 
-<button onclick="document.getElementById('id01').style.display='block'" name="cadastroUser"  style="width:auto;">Cadastrar Usuário</button>
+<button onclick="document.getElementById('id01').style.display='block'" class="button_form" name="cadastroUser"  style="width:auto;">Cadastrar Usuário</button>
 
 <div id="id01" class="modal">
 
@@ -17,8 +17,8 @@
         <p>Para criar uma conta você deve concordar com nossos <a href="#">Termos & Privacidade</a>.</p>
 
         <div class="clearfix">
-          <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
-          <button type="submit" class="signupbtn">Cadastrar</button>
+          <button class="cancelbtn button_form"  type="button" onclick="document.getElementById('id01').style.display='none'" >Cancelar</button>
+          <button class="signupbtn button_form" type="submit" >Cadastrar</button>
         </div>
       </div>
     </form>
